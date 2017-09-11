@@ -1,0 +1,106 @@
+body, html {
+	font-family: Helvetica;
+	width: 100%;
+	height: 100%;
+}
+
+#app {
+	width: 100%;
+	height:100%;
+}
+
+#main {
+	width: 60%;
+	border: solid;
+	border-width: 1px;
+	border-color: rgb(230, 230, 230);
+	margin:0% auto;
+
+}
+
+.list {
+	padding: 5px;
+	background-color: rgb(230, 230, 230);
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.movie-list {
+	padding: 5%;
+	width: 90%;
+	height: 50%;
+
+}
+.movie {
+	padding: 10px;
+	border: 1px solid rgb(230, 230, 230);
+	border-bottom: none;
+}
+
+.movie:last-child {
+	border-bottom: 1px solid rgb(230, 230, 230);
+
+}
+
+.movie-title {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+
+.add-title {
+	height: 28px;
+	margin-top: 5px;
+	font-size: 15px;
+	margin-left: 10px;
+	background-color: rgb(0, 204, 0);
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+
+.go {
+	background-color: white;
+	height: 20px;
+	border: 1px solid;
+	border-color: rgb(204, 204, 204);
+	border-left: none;
+	outline: none;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.input-value {
+	width: 150px;
+	height: 20px;
+}
+
+.button-div {
+	width:100px;
+	float:right;
+	text-align: center;
+}
+
+.watched-button {
+	margin:auto;
+	background-color: rgb(0, 204, 0);
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	color: white;
+}
+
+.search-field {
+	display: inline-block;
+	margin-left: 5%;
+}
+
+.watched-tab, .to-watch-tab {
+	height:50%;
+	margin:auto;
+	background-color: white;
+	border: 1px solid;
+	outline: none;
+	color: grey;
+}
